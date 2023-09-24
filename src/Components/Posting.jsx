@@ -1,5 +1,8 @@
-export default function Posting() {
+export default function Posting(props) {
     return (
-        <h1>Posting</h1>
+        <div>
+            <h2>{props.data.title}</h2>
+            <p>{props.data.description}</p>
+        </div>
     )
 }

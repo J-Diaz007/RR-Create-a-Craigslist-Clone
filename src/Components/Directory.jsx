@@ -5,7 +5,7 @@ export default function Directory() {
                 <option value="gallery">Gallery</option>
             </select>
             <button>&lt;back</button>
-            <span>120/3000</span>
+            <span>420/3000</span>
             <button>next&gt;</button>
         </div>
     )
