@@ -7,19 +7,15 @@ import Directory from './Components/Directory'
 import Gallery from './Components/Gallery'
 import Sidebar from './Components/Sidebar'
 
-
+//Double curly brace {{}} means we are adding some javascript AND an object
 function App(){
   return (
-    <div>
-      <h1>craigslist</h1>
-      <div className="App">
+      <div className="App" style={{"display": "flex"}}>
         <SearchBar />
         <Directory />
         <Gallery />
         <Sidebar />
-
       </div>
-    </div>
   );
 }
 
