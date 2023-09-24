@@ -5,6 +5,7 @@ import './App.css';
 import SearchBar from './Components/SearchBar'
 import Directory from './Components/Directory'
 import Gallery from './Components/Gallery'
+import Sidebar from './Components/Sidebar'
 
 
 function App(){
@@ -15,6 +16,7 @@ function App(){
         <SearchBar />
         <Directory />
         <Gallery />
+        <Sidebar />
 
       </div>
     </div>
