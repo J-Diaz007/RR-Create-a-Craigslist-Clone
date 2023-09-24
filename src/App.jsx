@@ -11,10 +11,12 @@ import Sidebar from './Components/Sidebar'
 function App(){
   return (
       <div className="App" style={{"display": "flex"}}>
-        <SearchBar />
-        <Directory />
-        <Gallery />
         <Sidebar />
+        <div>  
+          <SearchBar />
+          <Directory />
+          <Gallery />    
+        </div>  
       </div>
   );
 }
